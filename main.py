@@ -375,7 +375,7 @@ for pair, val in st.session_state.pair_overrides.items():
 # UI layout
 # -----------------------------
 
-st.title("💱 FX Arbitrage — Direct inputs + overrides")
+st.title("💱 FX Arbitrage")
 st.caption("Bellman-Ford algorithm. Cycles must have length ≥ 3. Override any cross to create arbitrage deterministically.")
 
 left, right = st.columns([3.0, 1.25])
